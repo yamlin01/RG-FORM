@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Registration</title>
+<link rel="stylesheet" href="Style.CSS">
+</head>
+<body>
+  <h1>User Registration</h1>
+  <form id="registrationForm">
+    <label for="firstName">First Name:</label><br>
+    <input type="text" id="firstName" name="firstName" required><br>
+
+    <label for="lastName">Last Name:</label><br>
+    <input type="text" id="lastName" name="lastName" required><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br>
+
+    <label for="confirmPassword">Confirm Password:</label><br>
+    <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+    <input type="button" value="Register" onclick="validateForm()">
+    <div id="message"></div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
